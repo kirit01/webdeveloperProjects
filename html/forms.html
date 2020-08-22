@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Demo</title>
+</head>
+<body>
+
+    <!-- <input type="text">
+    <input type="color">
+    <input type="radio">
+    <input type="checkbox">
+    <input type="password"> -->
+
+    <h1>Register</h1>
+
+    <form action="https://google.com">
+        <div>
+            <label for="First Name">First Name</label>
+            <input id="First Name" name="first" type="text" placeholder="john" required/>
+
+            <label for="Last Name">Last Name</label>
+            <input id="Last Name" name="last" type="text" placeholder="Smith" required /><br/>
+        </div>
+        
+        <div>
+            <label for="Radio-male">male</label>
+            <input id="Radio-male" type="radio" value="male" name="gender" />
+            <label for="Radio-female">female</label>
+            <input id="Radio-female" type="radio" value="female" name="gender" />
+            <label for="Radio-other">other</label>
+            <input id="Radio-other" type="radio" value="other" name="gender"/><br>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="your email" required/>
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="your password" pattern=".{8,12}" required title="8 to 12 characters"/><br>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" required> <br>
+        </div>
+
+        <div>
+            <label for="terms and condition">I agree to the terms and conditions</label>
+            <input id="terms and condition"  name="agreed" type="checkbox" required/><br>
+        </div>
+
+        <div>
+            <input type="submit" value="submit"/>
+        </div>
+    </form>
+    
+</body>
+</html>

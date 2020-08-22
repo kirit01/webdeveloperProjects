@@ -1,0 +1,18 @@
+body {
+    background-color:rgba(245, 245, 245,0.5);
+}
+li{
+    border: 2px solid red;
+}
+
+#hoe{
+    background-color:yellow;
+}
+
+.j{
+    text-decoration: line-through;
+}
+
+.g {
+    text-decoration: line-through;
+}

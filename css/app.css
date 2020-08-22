@@ -1,0 +1,19 @@
+body{
+    background-color:rgba(0, 255, 255, .5);
+    text-align: center;
+    margin-top: 15em;
+
+}
+h1{
+color:red;
+border: 1px solid rebeccapurple;
+
+}
+
+h2{
+    color: #008B8B;
+    background-color: rgb(255, 140, 0);
+}
+li{
+    color: blue;
+}

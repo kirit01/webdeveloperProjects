@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <title>My Gallery</title>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="container">
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+	                aria-expanded="false">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </button>
+	            <a href="#" class="navbar-brand"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-image-fill"
+	                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	                    <path fill-rule="evenodd"
+	                        d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15.002 9.5V13a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-1zm5-6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+	                </svg> Memories</a>
+	        </div>
+	        <div class="collapse navbar-collapse" id="bs-nav-demo">
+	            <ul class="nav navbar-nav">
+	                <li><a href="#">About</a></li>
+	                <li><a href="#">Contact</a></li>
+	            </ul>
+	            <ul class="nav navbar-nav navbar-right">
+	                <li><a href="#">Sign Up</a></li>
+	                <li><a href="#">Login</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</nav>
+
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                    <path fill-rule="evenodd"
+                        d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
+                </svg> The image gallery</h1>
+            <p>
+                my beautiful collection of images.
+            </p>
+        </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6zbr3w-9c2d62a0-89e1-4fa3-9a01-24be3063c049.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNnpicjN3LTljMmQ2MmEwLTg5ZTEtNGZhMy05YTAxLTI0YmUzMDYzYzA0OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.hcAi9lFN2EtC9djdj7wZCZU8ay5fajIaOk0fZhSuZFE"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6z8izs-de7b9615-2990-4518-9bc7-4a4f69533be8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNno4aXpzLWRlN2I5NjE1LTI5OTAtNDUxOC05YmM3LTRhNGY2OTUzM2JlOC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.1zowumoUfar73_nYufkxOey_1i79pmmnYPoi-lHRbiE"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6wnzhi-66861f94-3694-4f4f-ac87-8b60212982f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNnduemhpLTY2ODYxZjk0LTM2OTQtNGY0Zi1hYzg3LThiNjAyMTI5ODJmMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.QpD3oJnGaWdHWrb8_YhD3As-n0nRNmlUYywEIKgpj5U"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6zbr3w-9c2d62a0-89e1-4fa3-9a01-24be3063c049.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNnpicjN3LTljMmQ2MmEwLTg5ZTEtNGZhMy05YTAxLTI0YmUzMDYzYzA0OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.hcAi9lFN2EtC9djdj7wZCZU8ay5fajIaOk0fZhSuZFE"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6z8izs-de7b9615-2990-4518-9bc7-4a4f69533be8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNno4aXpzLWRlN2I5NjE1LTI5OTAtNDUxOC05YmM3LTRhNGY2OTUzM2JlOC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.1zowumoUfar73_nYufkxOey_1i79pmmnYPoi-lHRbiE"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6wnzhi-66861f94-3694-4f4f-ac87-8b60212982f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNnduemhpLTY2ODYxZjk0LTM2OTQtNGY0Zi1hYzg3LThiNjAyMTI5ODJmMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.QpD3oJnGaWdHWrb8_YhD3As-n0nRNmlUYywEIKgpj5U"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6zbr3w-9c2d62a0-89e1-4fa3-9a01-24be3063c049.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNnpicjN3LTljMmQ2MmEwLTg5ZTEtNGZhMy05YTAxLTI0YmUzMDYzYzA0OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.hcAi9lFN2EtC9djdj7wZCZU8ay5fajIaOk0fZhSuZFE"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6z8izs-de7b9615-2990-4518-9bc7-4a4f69533be8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNno4aXpzLWRlN2I5NjE1LTI5OTAtNDUxOC05YmM3LTRhNGY2OTUzM2JlOC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.1zowumoUfar73_nYufkxOey_1i79pmmnYPoi-lHRbiE"
+                    alt="_blank">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09920ca2-8765-4fb8-9de2-20f017d2cf50/d6wnzhi-66861f94-3694-4f4f-ac87-8b60212982f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDk5MjBjYTItODc2NS00ZmI4LTlkZTItMjBmMDE3ZDJjZjUwXC9kNnduemhpLTY2ODYxZjk0LTM2OTQtNGY0Zi1hYzg3LThiNjAyMTI5ODJmMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.QpD3oJnGaWdHWrb8_YhD3As-n0nRNmlUYywEIKgpj5U"
+                    alt="_blank">
+            </div>
+        </div>
+
+
+       
+
+
+    </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
